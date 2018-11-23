@@ -3,14 +3,6 @@
   "fontname": "fonts/emoir-kaku.ttf",
   "width": 20,
   "height": 20,
-  "images": [
-    "0,",
-    "2,title/images/arrow2.png",
-    "4,title/images/arrow4.png",
-    "6,title/images/arrow6.png",
-    "8,title/images/arrow8.png",
-    "9,title/images/wall.png"
-  ],
   "phases": [
     {
       "title": "Puzzle Field",
