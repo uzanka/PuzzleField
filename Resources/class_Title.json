@@ -1,0 +1,13 @@
+{
+  "title": "Puzzle Field",
+  "fontname": "fonts/emoir-kaku.ttf",
+  "fillvalue": 0,
+  "images": [
+    { "value": 0, "filename": "" },
+    { "value": 2, "filename": "Title/images/arrow2.png" },
+    { "value": 4, "filename": "Title/images/arrow4.png" },
+    { "value": 6, "filename": "Title/images/arrow6.png" },
+    { "value": 8, "filename": "Title/images/arrow8.png" },
+    { "value": 9, "filename": "Title/images/wall.png" }
+  ]
+}

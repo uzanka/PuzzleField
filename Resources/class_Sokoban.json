@@ -1,0 +1,19 @@
+{
+  "class": "Sokoban",
+  "fontname": "fonts/SoukouMincho.ttf",
+  "fillvalue": " ",
+  "images": [
+    { "value": 0,   "filename": "" },
+    { "value": " ", "filename": "" },
+    { "value": "#", "filename": "Sokoban/images/wall.png" },
+    { "value": "$", "filename": "Sokoban/images/box.png" },
+    { "value": "*", "filename": "Sokoban/images/box.png" },
+    { "value": "@", "filename": "Sokoban/images/player2.png" },
+    { "value": "+", "filename": "Sokoban/images/player2.png" },
+    { "value": ".", "filename": "Sokoban/images/goal.png" },
+    { "value": "D", "filename": "Sokoban/images/player2.png" },
+    { "value": "L", "filename": "Sokoban/images/player4.png" },
+    { "value": "R", "filename": "Sokoban/images/player6.png" },
+    { "value": "U", "filename": "Sokoban/images/player8.png" }
+  ]
+}

@@ -1,0 +1,609 @@
+;
+; Sokoban 9x9
+;
+;scenario_title:9x9
+;scenario_author:uzanka
+;
+;title:9x9x2-1
+;author:uzanka
+;answer:ruLullllddrrUUrrdLulllddrrUruLLuurDlllllddrrrUUruLdlUUUluRdrUluRRllddddrddddrruruLLrddlluUUruLdlUUUluRdrUluR
+  ######## 
+###  ..  # 
+#    #   # 
+#      ####
+##  ####  #
+##     #  #
+#      #  #
+# ##     ##
+#    #$ $ #
+#      #@ #
+###########
+
+;title:9x9x2-2
+;author:uzanka
+;answer:rdrrruurDurrdLLrrrddldlluUddrrruuullullDDuurrdLddLLLrrruuulDDlllDDDldRurDDuluuurrurrdLLLulDDDldRurD
+    #######
+#####     #
+#@ #  $$  #
+#      ## #
+#      #  #
+## ##     #
+#   ###   #
+#      ####
+# #. # ### 
+#  .   ### 
+########   
+
+;title:9x9x2-3
+;author:uzanka
+;answer:rdLdlllluurrDullddrRlddrrruuuLDDullluurrDullddrRurrdddLLLLruururDDulllullddrDDDuurruurrrddLLLLrdddlLLuluuurrDDDlddlUUUUUrrdrrdddlLLdlUUUU
+###########
+#  #   #@ #
+#    #$ $ #
+#. #     ##
+#.  # #  # 
+# #      # 
+#   # ## # 
+#   # ## # 
+#        # 
+#  #  #  # 
+########## 
+
+;title:9x9x2-4
+;author:uzanka
+;answer:rruulDrdddlluuRurDDullddrRRlddrruUluRRRdrUUUddllluLdldlluururDDullddrRRlddrruUluRRRdrruuuuLrddddlUUUlUdrruL
+  ######## 
+ ##    . ##
+ #    #.  #
+##$ ###   #
+#@  $ ##  #
+# #       #
+#     #   #
+#   #  # ##
+# #      # 
+#      ### 
+########   
+
+;title:9x9x2-5
+;author:uzanka
+;answer:RDDDrrruuluLulDDDrdLLdlluRRRRRlluuurrrddDDDuullllddrUluRRRlluuurrrddrddddLruuuulDDDlDurrdL
+    ####   
+ ####  ### 
+ ###@$   # 
+ ### $#  ##
+#####  #  #
+#         #
+#     ##  #
+# ##  #   #
+#  #  #.  #
+#  #  #. ##
+########## 
+
+;title:9x9x2-6
+;author:uzanka
+;answer:rrdddddlUUruuullddRluurrdDDldRRluuurrrrrdddddldlluuUUUddlluuurRRRurDDDDDrdddlluuRlddrruUUUlddldlllllUUUUruuullddRluurrdDDldRRlldddrrruuUUUddlluuurRRRurDDDDDrdddlluuRlddrruUU
+##### #### 
+#@  ###  # 
+# #      # 
+#   #  # ##
+##  #  # .#
+ #$    # .#
+ #  # ##  #
+##$## #   #
+#       # #
+#  #  #   #
+###########
+
+;title:9x9x2-7
+;author:uzanka
+;answer:ddddDlddrUUUddRluurrrrdddllUUdlluurRRluurrdDldRRluuuurrdddDrdLulllluluulDDDldRRluurrrrdddllUUdlluurRRluurrdDldRRluuuurrdddD
+           
+ ######### 
+ #@      # 
+ #  #    # 
+ #     # # 
+ #   # # # 
+##     # ##
+# $#      #
+#  $ # .. #
+#  #   ####
+########   
+
+;title:9x9x2-8
+;author:uzanka
+;answer:ruLullDurrdLLulDDDDuuuulullddddddrrRRRlluurUluurrdLdldddrrdrruLLLLLLrruuruuulDDDDuuuululldddddlddrrruRRRlllldlUUUUUUluRRurrddlUrddddddrrdrruLLLLLLdlUUUUUUluRddddddrrruuuuuuuL
+ ######### 
+## .  #  # 
+#  .  #  # 
+#  #     ##
+##  # $ $ #
+ #  #  #@ #
+## ##  ####
+#  ## #####
+#         #
+#     #   #
+###########
+
+;title:9x9x2-9
+;author:uzanka
+;answer:rrdrrrrrddrddddLUUdddlluRdrruuuuLLLLddrdrdrUUUddllulluUruLLdlUUluRRRllddrrrdddrdrrruuuLLLLdlUruLLdlUUluRR
+#####  ####
+#@  ####  #
+#   ..    #
+#  ####  ##
+#     ##  #
+#         #
+# ##  ##  #
+#      #$ #
+#    #  $ #
+##        #
+ ##########
+
+;title:9x9x2-10
+;author:uzanka
+;answer:rrurrrrrddddddLruulDllddrUluRRurrddlUUUUUdddddLullddrUluRRuruuruuLLLrrddddrddlUUUUUldllldlluurururDDDrdLLLrruuulllddDDDDuururrrurrruuLLLrddllldlluurururDDDrdLLLrruuulllddDDD
+   ####    
+ ###  #####
+##        #
+#@  # #   #
+#  #      #
+#      # ##
+##  ###   #
+## ##  $  #
+# . #  $  #
+# . #  ####
+########   
+
+
+;title:9x9x3-1
+;author:uzanka
+;answer:ddrddrrrrrrUUlulllldlluuRlddrruUdrruulullDRRurDDDDDuulldlluuRurrrddrrdrruLLLrrdddllLLLdlUUluuururrrdDDDuullUluRRlddrrddrdLLLrruuulldLrurrdddlldlUUdrrruuulluururDDDDDrdLLLrruuullulldDuurrddLrurrdddlldlUU
+   ########
+ ###  ##  #
+ #    ##  #
+##$   ##  #
+#@$ # ##  #
+# #       #
+#.. # #   #
+#. ##  #$##
+#        # 
+##  ###### 
+ ####      
+
+;title:9x9x3-2
+;author:uzanka
+;answer:RurUruLLullddrUluRdrrddlddrUUUruLLruulullllddddddrRRRuruulUUrddddlddrUUUdldlllluuuuuurrrurrddldllddrUruruuLLLrrdddlluRdrUUruullllldddddddrrrrruuruLLullddrUluRdrruuuLLrrdddlUUruL
+########## 
+#        # 
+# # ...  # 
+#   ###  # 
+#   #    ##
+# # #     #
+#   #  #$ #
+#   ###  ##
+# #  $@$ # 
+#   ###  # 
+##### #### 
+
+;title:9x9x3-3
+;author:uzanka
+;answer:rrrUUddlUruruuuulllddddRRdddrruuLUUUUdlDrddrddllluuuRuruuruLLLLddddrddrdrruulUUUUdlddlddrUluRlluuuuulldRurDrrurrdLLLLrrrddldddrUUUUruLLL
+###########
+#     #   #
+#   ..    #
+#   #.##  #
+# ##  #  ##
+#  #  #  # 
+#  #     ##
+#  ###$$$ #
+#  #@   # #
+####      #
+   ########
+
+;title:9x9x3-4
+;author:uzanka
+;answer:rrrruuUrUdllURRRurDDDrdLLLrruuuluulllDldRRRRurDDDuuluulDullddrddDrrurrdLLLrruuululullddrRRurDDDldldLrururuulllddDlDDuurrdLrddlLLrrruululDDldRuurrdrrruuLLLrruuulllddDrdLulDDlullddR
+  ######## 
+ ##      # 
+ ##  #   ##
+ ## $ $   #
+ ### $ #  #
+ #### #   #
+####      #
+#@     #  #
+# #  #    #
+#  ... #  #
+###########
+
+;title:9x9x3-5
+;author:uzanka
+;answer:dddRddrdrruUddllluuuUUddddrdrruuluLrdrddllluuUrrurDDDulullddrdrRRRurrddlUUlllulullluurDldRRRurDDDulullddrdrRRRurruLrdddlUUlllululluuruulDDDldRRRurDDDulullddrdrRRRuUUUUrrdddLrdddlUUruuulluluRdrrddddllUUUUUluRddrrdddLdlUUUUU
+ ######### 
+##  ## ..# 
+#@  ##  .##
+#   ##    #
+# $#  #   #
+# $   # # #
+## # $#   #
+ #  #     #
+ #        #
+ ###  ##  #
+   ########
+
+;title:9x9x3-6
+;author:uzanka
+;answer:UUUluurDRRRRurDDDuulldddrRdrUUluRdrUllddllllluUluRRRRRurDDDuulldddrRdrUluRldlldddlllUUUUUluRRRRRurDDDuulldddrRdrUUluR
+###########
+#   #     #
+#  $    #.#
+#  ## #  .#
+##  # #  .#
+ #$       #
+ #@#  #  ##
+##$## #### 
+#      ### 
+#  ##  ### 
+########   
+
+;title:9x9x3-7
+;author:uzanka
+;answer:rrrddllDrddlluRdrUUdddrrruruuuullddLruurrddddlldlluluuuRRdrUluRRRurDDDDldRllldlluuUluRRdrUluRRRurDDDldRluuullldllUluRRurDDrddlluRdrUluRRRurDDD
+ ########  
+##      ## 
+#@   #   # 
+# $#     # 
+##    #  # 
+##$ $ #  ##
+#   ### ..#
+#   #    .#
+# #    ####
+#   #  ### 
+########   
+
+;title:9x9x3-8
+;author:uzanka
+;answer:rrrrruuRurruuLrdddLLLrrruuulDDrdLuuuulldRurDDDlDDDrdLulDruuuuruulllddDDrdLLruulldDDullddrRRuurrruuurrdLLLrruuulllddDDrdLLruulldDDullddrR
+ ######### 
+ #  ##   ##
+ #  #   $ #
+ #  #  #$ #
+ # ## #   #
+ #     $  #
+##  #   ###
+#@        #
+# #  #    #
+#   ... ###
+#########  
+
+;title:9x9x3-9
+;author:uzanka
+;answer:rRurrddlUddllUdrruuluulllldddrRuRRllddrrrruuuLrddlUddllUluRRUUddlddrrruuuLrddlUlUdrruLuuLulllddrrUrrdLLLrrrddlUruuluLrdrddldlldlluurUUdrrurrdLLLrrddlldlluurU
+    ####   
+#####  ####
+#         #
+# ..  ##  #
+##.#   #  #
+#      #  #
+#  ##     #
+# #@ $    #
+#  $$#  # #
+###       #
+  #########
+
+;title:9x9x3-10
+;author:uzanka
+;answer:drrUdlluRRRlluurDDldRurDDrrdddllluuRRlddrruUluRRlddrruUruLullLLdlluurDldRurDDrrdddllluuRRlddrruUluRRluurrdDlllluluuurrDullddrddrruuLLruulldDldRurDDrrdddllluuRRlddrruUluRRluR
+####  #####
+#  ####   #
+#         #
+##  #$#####
+#@$$     ##
+#    #  . #
+####    . #
+ ##    #.##
+ ##  #    #
+ ##    #  #
+  #########
+
+
+;title:9x9x3-1
+;author:uzanka
+;answer:DldRdrruuruuulllUluurDldRRdrrruuulldDldRRRRluurrdDDDlllldddlluuuUUUluurDldRRdrrruuulldDldRRRRdrrddLLuuuluurrdDDDllllddLdlUUUUUUluurDldRRdrrruuulldDldRRRRluurrdDDrddLruLulullluRluurrdDurrddlLulDDulllddddrruuR
+###########
+#  #   #  #
+#  # #    #
+# $  $ #  #
+##       ##
+ #$ # #   #
+##@#  ..  #
+# $#  ..  #
+#    # #  #
+##     ####
+ #######   
+
+;title:9x9x3-2
+;author:uzanka
+;answer:rUUlluurrUdlluRuRRllddrUlldddrrUUdrruuruulDDDuulLulDDldddrrurRRRRurDlllllluUluRRldddrruuruulDDDuulldddrRRRRllllldddlUruuuulldddRdrUUUUluRRldddrruuruulDDDuulldddrRRRurDllllldlluuRlddrruUUluRRldddrruuruulDDDuulldddrRRR
+ #######   
+ #  #  ### 
+##     ### 
+# $$#  ####
+#   # #   #
+# #     ..#
+#   #   ..#
+##$$##  ###
+ #@ ##   # 
+ #####   # 
+     ##### 
+
+;title:9x9x3-3
+;author:uzanka
+;answer:rruuLULuurDDDuluulllldddrruRlddrUllluuurrrrrdddLLLLrrrrrddlUruululullllddDuuurrrrrddrdLLLLLrrrruulDuulllllddlddrddrrruuuuRldldddllluuuurruurrrrrdddLLrruulDllDldddlluuRlluurruurrrrddlldlDDullluurrDrddrdLLruuulullddrRurDDrdLuuurrurrdLLLLdllluurrDullddrRurDDuurrdLulD
+########   
+#  #   ### 
+#        # 
+##  ###  ##
+#   #  $$ #
+# #   $ $ #
+#      #  #
+#  #. #@  #
+# ... # # #
+##    #   #
+ ##########
+
+;title:9x9x3-4
+;author:uzanka
+;answer:RddrruuLUUUUruLLLLrrrdddrddddlluUUUUUddddddllluuRRluuuuuulDrdddddlddrrrrruuluuuuuLLLdddddlddrrruUUUUUddddddlUdlluurRluuuuLLrruulDrdddddrdrdrruuluuuuuLLLdddddrdrUUUUUddddllldlluuruuuulDDDDDlddrrruuruuuuLLrruulDrdddddrrruuuuuLLLdddddldldlluururuuuulDDDDldddrrruuruuuuLLrruulDllDDDruuurrdLLdddLruuuulDDDruurrddddldlLdlU
+   ########
+ ###  ##  #
+ #        #
+ #    #   #
+ #  # #  ##
+##  # #   #
+#.. # # $ #
+#..# $@$  #
+#    #$ # #
+#         #
+###########
+
+;title:9x9x3-5
+;author:uzanka
+;answer:RdrUruulDDDldddrdrruuluLulDDDrdLLLdlluRRRRRRlluuurrrddDuululuuuullllddRRRllluurrrrdDDuuulllDldRRRddddrdrruuluLLuulluurrrdDDuuullDldRRddddrdrruuluLululuurrdDDlDDDrdrruuluLrrdddllLLLdlluRRRRRRlluuUruulDDDDrdLLLdlluRRRRRluulluRdrUruulDDDDrdLLLdlluRRRR
+ ########  
+ #      ## 
+ # $$#  ## 
+ # $@$  ## 
+#####  ### 
+#        # 
+#     #  # 
+#####  # ##
+#     ... #
+#   #  #. #
+###########
+
+;title:9x9x3-6
+;author:uzanka
+;answer:DlldlddRdrruuUruLLrddddllulluuuurruurrDDuulllddlddrrUUUddddddrruLruuruLLruuulLLLLrrddlddrrUUUldldllluuuurDDDldRRdrrrurruuulLLLLrrrrrddddddldlUUUUUUldlDDldRlluuluuuurDDDldRRdrrruullDurrddlLddrUruurruuLLruLLLLrrrddlUdldllluuuurDDDldRRlddrrrruuullDurruuLLLrrddldllluuuurDDDldR
+########   
+#  #   ### 
+#        # 
+#  ##  $$# 
+#  #   #@##
+#  . #  $ #
+## ... #  #
+#      # ##
+#  #  $  # 
+######   # 
+     ##### 
+
+;title:9x9x3-7
+;author:uzanka
+;answer:rRRRllllUdrrrrdrruuullllluullddRRRllddrrrrdrruuuuulDrddddllllulluurrurRRurDDDDDDuuuuulldRurDDDDldddrruLdlUUdrruLuuuullulldRRRurDDDDDuLLLrrrdrddlluUruuuullllllddrrrrRllllluurrrrrrdDDullllDDrururrdLLLrrdddrruLdlUUdrruLuullldddLLrruuulDDrururrdLLLrrrddlUruullldddLruuulDDrururrdLLLulD
+########## 
+#    ##  ##
+# #   $$  #
+#         #
+##$##### ##
+ #@ $    # 
+####     ##
+#  #. #   #
+# ... #   #
+#  #  #   #
+###########
+
+;title:9x9x3-8
+;author:uzanka
+;answer:rrrrruuRurruuLrdddLLLrrruuulDDrdLuuuulldRurDDDlDDDrdLulDruuuuruulllddDDrdLLruulldDDullddrRRuurrruuurrdLLLrruuulllddDDrdLLruulldDDullddrR
+ ######### 
+ #  ##   ##
+ #  #   $ #
+ #  #  #$ #
+ # ## #   #
+ #     $  #
+##  #   ###
+#@        #
+# #  #    #
+#   ... ###
+#########  
+
+;title:9x9x3-9
+;author:uzanka
+;answer:rdrrdrddDLLLrrDullulDDlddrUrrdrrruuLullllDurrrrdrddllluUdlLuurRRldddrrruulUluRddLrrddllluUdlluurRRdrUUUruuullddRluurrdDlddldldddrUUluRdrUUldllldddlUdlluurRdrrruullDldRRRdrUUluRdrU
+   ########
+ ###@ #   #
+ ###    # #
+####  #   #
+#   ####..#
+#     # ..#
+####   $$##
+#    #$$  #
+# #     # #
+#    #    #
+###########
+
+;title:9x9x3-10
+;author:uzanka
+;answer:rddrrrrrrDullllddddrrrrruuLLLLrrrrddllllluUUdlluurRdrUUUddllluururRRRlldddlddddrrrUdrruulLLLrrddllluUUdlluurRdrUUUddllluururRRldddlddddrrUdlllUdlluurRdrUUdlluurRdrUUUddllluururRdrUldddrrrddlLLrddlluUUdlluurRdrUUUddllluururR
+ #######   
+ #  # .### 
+##    ...# 
+#@  #    # 
+#  ## #### 
+#        # 
+## #  ##$##
+#         #
+# #$ #$$# #
+#         #
+###########
+
+
+;title:9x9x4-1
+;author:uzanka
+;answer:DldRdrruuruuulllUluurDldRRdrrruuulldDldRRRRluurrdDDDlllldddlluuuUUUluurDldRRdrrruuulldDldRRRRdrrddLLuuuluurrdDDDllllddLdlUUUUUUluurDldRRdrrruuulldDldRRRRluurrdDDrddLruLulullluRluurrdDurrddlLulDDulllddddrruuR
+###########
+#  #   #  #
+#  # #    #
+# $  $ #  #
+##       ##
+ #$ # #   #
+##@#  ..  #
+# $#  ..  #
+#    # #  #
+##     ####
+ #######   
+
+;title:9x9x4-2
+;author:uzanka
+;answer:rUUlluurrUdlluRuRRllddrUlldddrrUUdrruuruulDDDuulLulDDldddrrurRRRRurDlllllluUluRRldddrruuruulDDDuulldddrRRRRllllldddlUruuuulldddRdrUUUUluRRldddrruuruulDDDuulldddrRRRurDllllldlluuRlddrruUUluRRldddrruuruulDDDuulldddrRRR
+ #######   
+ #  #  ### 
+##     ### 
+# $$#  ####
+#   # #   #
+# #     ..#
+#   #   ..#
+##$$##  ###
+ #@ ##   # 
+ #####   # 
+     ##### 
+
+;title:9x9x4-3
+;author:uzanka
+;answer:rruuLULuurDDDuluulllldddrruRlddrUllluuurrrrrdddLLLLrrrrrddlUruululullllddDuuurrrrrddrdLLLLLrrrruulDuulllllddlddrddrrruuuuRldldddllluuuurruurrrrrdddLLrruulDllDldddlluuRlluurruurrrrddlldlDDullluurrDrddrdLLruuulullddrRurDDrdLuuurrurrdLLLLdllluurrDullddrRurDDuurrdLulD
+########   
+#  #   ### 
+#        # 
+##  ###  ##
+#   #  $$ #
+# #   $ $ #
+#      #  #
+#  #. #@  #
+# ... # # #
+##    #   #
+ ##########
+
+;title:9x9x4-4
+;author:uzanka
+;answer:RddrruuLUUUUruLLLLrrrdddrddddlluUUUUUddddddllluuRRluuuuuulDrdddddlddrrrrruuluuuuuLLLdddddlddrrruUUUUUddddddlUdlluurRluuuuLLrruulDrdddddrdrdrruuluuuuuLLLdddddrdrUUUUUddddllldlluuruuuulDDDDDlddrrruuruuuuLLrruulDrdddddrrruuuuuLLLdddddldldlluururuuuulDDDDldddrrruuruuuuLLrruulDllDDDruuurrdLLdddLruuuulDDDruurrddddldlLdlU
+   ########
+ ###  ##  #
+ #        #
+ #    #   #
+ #  # #  ##
+##  # #   #
+#.. # # $ #
+#..# $@$  #
+#    #$ # #
+#         #
+###########
+
+;title:9x9x4-5
+;author:uzanka
+;answer:RdrUruulDDDldddrdrruuluLulDDDrdLLLdlluRRRRRRlluuurrrddDuululuuuullllddRRRllluurrrrdDDuuulllDldRRRddddrdrruuluLLuulluurrrdDDuuullDldRRddddrdrruuluLululuurrdDDlDDDrdrruuluLrrdddllLLLdlluRRRRRRlluuUruulDDDDrdLLLdlluRRRRRluulluRdrUruulDDDDrdLLLdlluRRRR
+ ########  
+ #      ## 
+ # $$#  ## 
+ # $@$  ## 
+#####  ### 
+#        # 
+#     #  # 
+#####  # ##
+#     ... #
+#   #  #. #
+###########
+
+;title:9x9x4-6
+;author:uzanka
+;answer:DlldlddRdrruuUruLLrddddllulluuuurruurrDDuulllddlddrrUUUddddddrruLruuruLLruuulLLLLrrddlddrrUUUldldllluuuurDDDldRRdrrrurruuulLLLLrrrrrddddddldlUUUUUUldlDDldRlluuluuuurDDDldRRdrrruullDurrddlLddrUruurruuLLruLLLLrrrddlUdldllluuuurDDDldRRlddrrrruuullDurruuLLLrrddldllluuuurDDDldR
+########   
+#  #   ### 
+#        # 
+#  ##  $$# 
+#  #   #@##
+#  . #  $ #
+## ... #  #
+#      # ##
+#  #  $  # 
+######   # 
+     ##### 
+
+;title:9x9x4-7
+;author:uzanka
+;answer:rRRRllllUdrrrrdrruuullllluullddRRRllddrrrrdrruuuuulDrddddllllulluurrurRRurDDDDDDuuuuulldRurDDDDldddrruLdlUUdrruLuuuullulldRRRurDDDDDuLLLrrrdrddlluUruuuullllllddrrrrRllllluurrrrrrdDDullllDDrururrdLLLrrdddrruLdlUUdrruLuullldddLLrruuulDDrururrdLLLrrrddlUruullldddLruuulDDrururrdLLLulD
+########## 
+#    ##  ##
+# #   $$  #
+#         #
+##$##### ##
+ #@ $    # 
+####     ##
+#  #. #   #
+# ... #   #
+#  #  #   #
+###########
+
+;title:9x9x4-8
+;author:uzanka
+;answer:rDRddddlluuRRuulDrdddlluuRurDllddrrrrrrruuuuluuulllllDDDDuuuurrrrrrddddddllluuuLLddRluurrdDldRRRdrUUUUUUUddddddlllldllluuRRRluurrdDldRRRdrUUUUUUlulllllddDDrdrddllluuRRRluurrdDldRRRdrUUUUdddlllldlUdlluurRRluurrdDldRRRdrruuuuuLrdddddlUUUUlUUUdddrruLdlUU
+####  #### 
+#  ####..# 
+#      ..# 
+##$####  ##
+#@ ####   #
+# $$  #   #
+##  # ##  #
+# $   ##  #
+# #       #
+#         #
+###########
+
+;title:9x9x4-9
+;author:uzanka
+;answer:rdrrdrddDLLLrrDullulDDlddrUrrdrrruuLullllDurrrrdrddllluUdlLuurRRldddrrruulUluRddLrrddllluUdlluurRRdrUUUruuullddRluurrdDlddldldddrUUluRdrUUldllldddlUdlluurRdrrruullDldRRRdrUUluRdrU
+   ########
+ ###@ #   #
+ ###    # #
+####  #   #
+#   ####..#
+#     # ..#
+####   $$##
+#    #$$  #
+# #     # #
+#    #    #
+###########
+
+;title:9x9x4-10
+;author:uzanka
+;answer:rddrrrrrrDullllddddrrrrruuLLLLrrrrddllllluUUdlluurRdrUUUddllluururRRRlldddlddddrrrUdrruulLLLrrddllluUUdlluurRdrUUUddllluururRRldddlddddrrUdlllUdlluurRdrUUdlluurRdrUUUddllluururRdrUldddrrrddlLLrddlluUUdlluurRdrUUUddllluururR
+ #######   
+ #  # .### 
+##    ...# 
+#@  #    # 
+#  ## #### 
+#        # 
+## #  ##$##
+#         #
+# #$ #$$# #
+#         #
+###########
+

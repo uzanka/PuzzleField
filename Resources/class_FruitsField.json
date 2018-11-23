@@ -1,0 +1,19 @@
+{
+  "class": "FruitsField",
+  "fontname": "fonts/SoukouMincho.ttf",
+  "fillvalue": 9,
+  "images": [
+    { "value": 0, "filename": "" },
+    { "value": 1, "filename": "FruitsField/images/fruits.png" },
+    { "value": 2, "filename": "FruitsField/images/arrow2.png" },
+    { "value": 4, "filename": "FruitsField/images/arrow4.png" },
+    { "value": 6, "filename": "FruitsField/images/arrow6.png" },
+    { "value": 7, "filename": "FruitsField/images/player2.png" },
+    { "value": 8, "filename": "FruitsField/images/arrow8.png" },
+    { "value": 9, "filename": "FruitsField/images/wall.png" },
+    { "value": 10, "filename": "FruitsField/images/player2.png" },
+    { "value": 11, "filename": "FruitsField/images/player4.png" },
+    { "value": 12, "filename": "FruitsField/images/player6.png" },
+    { "value": 13, "filename": "FruitsField/images/player8.png" }
+  ]
+}

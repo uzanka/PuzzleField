@@ -1,0 +1,28 @@
+{
+  "title": "Puzzle Field",
+  "fontname": "fonts/emoir-kaku.ttf",
+  "width": 20,
+  "height": 20,
+  "scenarios": [
+    {
+      "class": "FruitsField",
+      "title": "FruitsField - Original",
+      "filename": "FruitsField/fruits_field_original.json"
+    },
+    {
+      "class": "Sokoban",
+      "title": "Sokoban - 6x6",
+      "filename": "Sokoban/sokoban_uzanka_6x6.map"
+    },
+    {
+      "class": "Sokoban",
+      "title": "Sokoban - 9x6",
+      "filename": "Sokoban/sokoban_uzanka_9x6.map"
+    },
+    {
+      "class": "Sokoban",
+      "title": "Sokoban - 9x9",
+      "filename": "Sokoban/sokoban_uzanka_9x9.map"
+    }
+  ]
+}
