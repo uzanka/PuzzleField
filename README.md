@@ -41,8 +41,11 @@ Keyboard is necessary for play.
 
 ## Build
 The following environment is necessary to build.
-- cocos2d-x ver3.17 for windows
 - Visual Studio 2017
+- cocos2d-x ver3.17 for windows is download at "http://www.cocos2d-x.org/", and install.
+- Font "emoir-kaku.ttf" is "http://modi.jpn.org/font_memoir.php".
+  Font "SoukouMincho.ttf" is "https://flopdesign.com/blog/font/5228/".
+  You can use other any fonts supported cocos2d-x.
 
 ## Development
 ### Add puzzle maps:
