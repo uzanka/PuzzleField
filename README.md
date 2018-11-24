@@ -59,6 +59,10 @@ The following environment is necessary to build.
 1. Add new puzzle class json for characters (ex: "class_NewPuzzle.json").
 1. Add new title information in "puzzle_field.json" file.
 
+### Result information:
+Cleared result is saved in "C:/Users/{username}/AppData/Local/PuzzleField/UserDefault.xml".
+This is specification of cocos2d-x.
+
 ## Licence
 GNU General Public License v3.0
 
