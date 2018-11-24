@@ -72,7 +72,7 @@ bool PuzzleTitleScene::StartPuzzle() {
   cocos2d::Vec2 start_position(visibleOrigin + cocos2d::Vec2(visibleSize.width / 2, visibleSize.height / 2 - scaler_->GetScaledSize(4)));
   start_button_->setPosition(start_position);
   start_button_->enableBold();
-  start_button_->setColor(cocos2d::Color3B::RED);
+  start_button_->setColor(cocos2d::Color3B::GRAY);
   this->addChild(start_button_, 50);
 
   // completed label
