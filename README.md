@@ -23,13 +23,18 @@ Keyboard is necessary for play.
 
 ### FruitsField
 1. Up/Down/Left/Right/8/2/4/6 keys to move player.
-2. Space key to action arrow box.
+   And catch all fruits in map.
+2. Space key to action arrow block.
+   The arrow block does not stop until it hits an obstacle.
+   The arrow block with obstacles will disappear ahead.
+   The opposite arrow block can not be erased.
 3. Esc key to abort game, and return to select window.
 
 ![image](./images/screenshot_FruitsField.png)
 
 ### Sokoban
 1. Up/Down/Left/Right/8/2/4/6 keys to move player or push box.
+   And move all boxes to goal.
 2. Esc key to abort game, and return to select window.
 
 ![image](./images/screenshot_Sokoban.png)
