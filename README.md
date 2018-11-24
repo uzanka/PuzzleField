@@ -45,8 +45,19 @@ The following environment is necessary to build.
 - Visual Studio 2017
 
 ## Development
-- Add puzzle maps (T.B.D.)
-- Add puzzle (T.B.D.)
+### Add puzzle maps:
+1. Store json/map/slc style map file in "FruitsField/" or "Sokoban/" folder.
+1. Add new title information in "puzzle_field.json" file.
+1. It support 3 kinds of map styles.
+    - Json style: See "fruits_field_original.json".
+    - Map style: Text style. See "sokoban_uzanka_6x6.map".
+    - Slc style: XML style. See web pages containing maps.
+
+### Add puzzle:
+1. Implement new puzzle class. Make rule, images, maps, ... etc.
+1. Add new class to PuzzleFieldSceneFactory class for create new scene.
+1. Add new puzzle class json for characters (ex: "class_NewPuzzle.json").
+1. Add new title information in "puzzle_field.json" file.
 
 ## Licence
 GNU General Public License v3.0
