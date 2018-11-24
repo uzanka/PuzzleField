@@ -85,6 +85,10 @@ bool AppDelegate::applicationDidFinishLaunching() {
   // run
   director->runWithScene(scene);
 
+#ifndef _DEBUG
+    // 左下のデバッグ情報を非表示にする.
+  director->setDisplayStats(false);
+#endif
   return true;
 }
 
