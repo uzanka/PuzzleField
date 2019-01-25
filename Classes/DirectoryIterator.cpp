@@ -16,7 +16,7 @@ DirectoryIterator::~DirectoryIterator() {
 ///////////////////////////////////////////////////////////////////////////////
 void DirectoryIterator::List() {
 #ifdef _WINDOWS
-  std::wstring wdir = StringUtil::ConvertCode(directory_);
+  std::wstring wdir = StringUtil::ConvertCode(directory_ + "/*.*");
 
   WIN32_FIND_DATAW FindFileData;
   memset(&FindFileData, 0, sizeof(FindFileData));
@@ -28,7 +28,10 @@ void DirectoryIterator::List() {
   while (bResult) {
     if ((FindFileData.dwFileAttributes & FILE_ATTRIBUTE_DIRECTORY) != 0) {
       std::wstring wfile(FindFileData.cFileName);
-      dirs_.push_back(StringUtil::ConvertCode(wfile));
+      std::string filename = StringUtil::ConvertCode(wfile);
+      if (filename != "." && filename != "..") {
+        dirs_.push_back(filename);
+      }
     }
     bResult = ::FindNextFileW(hFind, &FindFileData);
   };

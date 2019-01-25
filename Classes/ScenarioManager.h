@@ -7,6 +7,8 @@
 
 namespace puzzle {
 
+const static std::string kPuzzleFieldFileName = "puzzle_field.json";
+
 /*!
  * @brief シナリオを管理する.
  */
@@ -87,6 +89,15 @@ public:
   int GetScenarioMapCount(const int index);
 
   std::string GetFontName() const;
+
+  /*!
+   * @brief 自動検出を取得する.
+   * @retval true  自動検出ON
+   * @retval false 自動検出OFF
+   * @details
+   * 自動検出を取得する.
+   */
+  bool GetAutoDetect() const;
 
 protected:
   /*!

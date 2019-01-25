@@ -3,6 +3,7 @@
   "fontname": "fonts/emoir-kaku.ttf",
   "width": 20,
   "height": 20,
+  "auto_detect": true,
   "scenarios": [
     {
       "class": "FruitsField",

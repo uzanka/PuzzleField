@@ -69,6 +69,8 @@ public:
   cocos2d::Size GetSmallResolutionSize() const;
   cocos2d::Size GetMediumResolutionSize() const;
   cocos2d::Size GetLargeResolutionSize() const;
+
+  void AutoDetectPuzzleScenes();
 };
 
 #endif  // _PUZZLE_APP_DELEGATE_H_

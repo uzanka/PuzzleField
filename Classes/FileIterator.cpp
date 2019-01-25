@@ -16,7 +16,7 @@ FileIterator::~FileIterator() {
 ///////////////////////////////////////////////////////////////////////////////
 void FileIterator::List() {
 #ifdef _WINDOWS
-  std::wstring wdir = StringUtil::ConvertCode(directory_);
+  std::wstring wdir = StringUtil::ConvertCode(directory_ + "/*.*");
 
   WIN32_FIND_DATAW FindFileData;
   memset(&FindFileData, 0, sizeof(FindFileData));

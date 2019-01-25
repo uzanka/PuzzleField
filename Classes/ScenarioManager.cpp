@@ -4,8 +4,6 @@
 
 namespace puzzle {
 
-const static std::string kPuzzleFieldFileName = "puzzle_field.json";
-
 ///////////////////////////////////////////////////////////////////////////////
 ScenarioManager& ScenarioManager::getInstance() {
   static ScenarioManager instance_;
@@ -93,6 +91,14 @@ std::string ScenarioManager::GetFontName() const {
     return "fonts/arial.ttf";
   }
   return doc_["fontname"].GetString();
+}
+
+///////////////////////////////////////////////////////////////////////////////
+bool ScenarioManager::GetAutoDetect() const {
+  if (!doc_.HasMember("auto_detect")) {
+    return false;
+  }
+  return doc_["auto_detect"].GetBool();
 }
 
 }  // puzzle

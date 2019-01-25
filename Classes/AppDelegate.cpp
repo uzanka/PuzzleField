@@ -4,6 +4,7 @@
 #include "ScenarioManager.h"
 #include "MapManager.h"
 #include "ResultManager.h"
+#include "ScenarioAutoDetector.h"
 
 //#define USE_AUDIO_ENGINE 1
 #if USE_AUDIO_ENGINE
@@ -79,6 +80,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
   register_all_packages();
 
+  AutoDetectPuzzleScenes();
+
   // create a scene. it's an autorelease object
   cocos2d::Scene* scene = puzzle::PuzzleTitleScene::createScene();
 
@@ -140,4 +143,15 @@ cocos2d::Size AppDelegate::GetMediumResolutionSize() const {
 ///////////////////////////////////////////////////////////////////////////////
 cocos2d::Size AppDelegate::GetLargeResolutionSize() const {
   return cocos2d::Size(2048, 1536);
+}
+
+///////////////////////////////////////////////////////////////////////////////
+void AppDelegate::AutoDetectPuzzleScenes() {
+  if (puzzle::ScenarioManager::getInstance().GetAutoDetect()) {
+    // 新たに追加されたマップを取り込む.
+    puzzle::ScenarioAutoDetector detector;
+    if (detector.Detect()) {
+      puzzle::ScenarioManager::getInstance().Initialize();
+    }
+  }
 }
