@@ -112,7 +112,7 @@ FieldMap::Ptr FieldMap::ExpandMap(FieldMap::Ptr src, const int width, const int 
   // マップのほうが大きい場合はマップのサイズにしてセンタリングする.
   if ((src->Width() > max_width) || (src->Height() > max_height)) {
     int wide = src->Width();
-    if (src->Height() > max_width) {
+    if (src->Height() > wide) {
       wide = src->Height();
     }
     max_width = wide;
