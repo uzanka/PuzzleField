@@ -40,6 +40,7 @@ bool SokobanScene::StartPuzzle() {
   if (player_on_goal) {
     // ゴールを作る.
     cocos2d::Sprite* sprite_goal = cocos2d::Sprite::create(sprite_mapper_->GetImage(kValueGoal));
+    sprite_goal->setScale(scaler_->GetScale(), scaler_->GetScale());
     sprite_goal->setPosition(scaler_->GetDisplayPosition(player_.x_, player_.y_));
     this->addChild(sprite_goal, 20);
     // 主人公の方向画像に変える.
@@ -49,6 +50,7 @@ bool SokobanScene::StartPuzzle() {
   for (auto xy1 : xy_box_on_goal) {
     // ゴールを作る.
     cocos2d::Sprite* sprite_goal = cocos2d::Sprite::create(sprite_mapper_->GetImage(kValueGoal));
+    sprite_goal->setScale(scaler_->GetScale(), scaler_->GetScale());
     sprite_goal->setPosition(scaler_->GetDisplayPosition(xy1.first, xy1.second));
     this->addChild(sprite_goal, 20);
     // 箱画像に変える.
