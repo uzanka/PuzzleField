@@ -62,6 +62,14 @@ The following environment is necessary to build.
 1. Add new puzzle class json for characters (ex: "class_NewPuzzle.json").
 1. Add new title information in "puzzle_field.json" file.
 
+### Auto detector:
+When PuzzleField is started, it automatically detects the map in the user folder.
+1. Place the map file in the user folder ({ClassName}/user/).
+   Map style is ".json", ".xml" ".slc", or ".map".
+1. Add or change the "auto_detect" key to "true" in "puzzle_field.json" file.
+1. Run PuzzleField.exe application.
+   Automatically detect and add map files.
+
 ### Result information:
 Cleared result is saved in "C:/Users/{username}/AppData/Local/PuzzleField/UserDefault.xml".
 This is specification of cocos2d-x.
